@@ -1,0 +1,276 @@
+@media only screen and (max-width: 1280px) {
+    .container {
+        max-width: 983px;
+    }
+    .header .nav {
+        margin-left: 50px;
+    }
+    .inform p {
+        width: 43%;
+        font-size: 30px;
+    }
+    .foods .orange img {
+        width: 400px;
+        height: 340px;
+    }
+    .foods .about {
+        width: 50%;
+    }
+    .foods .about .images {
+        width: 100%;
+    }
+    .organic .wraper {
+        width: 100%;
+        display: inline-flex;
+    }
+    .choice {
+        height: 1500px;
+    }
+    .choice .container .wraper {
+        width: 80%;
+        display: inline-flex;
+        margin-left: 40px;
+    }
+    .sweets .sweets_sw {
+        width: 100%;
+        display: inline-flex;
+    }
+    .sweets .sweets_sw .grey {
+        width: 360px;
+        height: 380px;
+    }
+    .search .sear {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        max-width: 650px;
+        width: 100%;
+    }
+    .header .container {
+        display: inline;
+    }
+    .header .wraper {
+        width: 320px;
+    }
+    .header .nav_toggle {
+        display: inline-block;
+        margin-left: 30px;
+        margin-right: 30px;
+        text-align: center;
+    }
+    .header .nav ul{
+        display: none;
+    }
+    #nav_toggle:checked ~ ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .header .nav ul {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background-color: rgb(209, 220, 223);
+        opacity: .9;
+        padding: 5%;
+        max-width: 120px;
+    }
+    .header .nav li:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .header .nav ul a {
+        color: #274C5B;
+    }
+    .main .container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .main h1 {
+        width: 70%;
+        font-size: 60px;
+        line-height: 54px;
+    }
+    .inform .container {
+        display: block;
+    }
+    .inform .natural,
+    .inform .offer {
+        width: 70%;
+    }
+    .foods .container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .foods .orange {
+        display: none;
+    }
+    .foods .about h2 {
+        width: 100%;
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .foods .about p {
+        width: 100%;
+    }
+    .choice .line {
+        width: 0;
+        height: 0;
+        background: none;
+    }
+    .sample .container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .sample .wraper2 {
+        display: inline;
+    }
+    .sample .wraper2 .made_btns {
+        margin-bottom: 40px;
+    }
+    .plantation {
+        background: none;
+    }
+    .plantation .container {
+        margin-right: 80px;
+    }
+    .footer .container {
+        display: inline;
+    }
+    .footer .contact,
+    .footer .logotip,
+    .footer .utility {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    .footer .contact,
+    .footer .utility {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    h3 {
+        font-size: 30px;
+    }
+    .container {
+        max-width: 290px;
+    }
+    .header .nav {
+        width: 150px;
+    }
+    .header .wraper {
+        display: block;
+    }
+    .header .nav_toggle {
+        margin-left: 200px;
+        margin-right: 10px;
+    }
+    .main h3 {
+        padding-left: 20px;
+    }
+    .main h1 {
+        font-size: 40px;
+        padding-left: 20px;
+    }
+    .inform .natural,
+    .inform .offer  {
+        width: 290px;
+        height: 190px;
+    }
+    .inform p {
+        width: 46%;
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .foods .about {
+        width: 90%;
+    }
+    .foods .about h2 {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    .foods .about p {
+        display: none;
+    }
+    .products {
+        width: 290px;
+        height: 450px;
+    }
+    .products img {
+        width: 187px;
+        height: 178px;
+    }
+    .products .top2 {
+        width: 190px;
+        border-bottom: none;
+    }
+    .products .cent {
+        display: inline;
+    }
+    .choice {
+        height: 2150px;
+    }
+    .choice h2 {
+        width: 70%;
+        font-size: 35px;
+        line-height: 38px;
+        margin-bottom: 20px;
+    }
+    .sample .wraper2 h2 {
+        width: 70%;
+        font-size: 35px;
+        line-height: 38px;
+        margin-bottom: 60px;
+    }
+    .plantation .description h2 {
+        width: 80%;
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .plantation .description h5 {
+        width: 70%;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .plantation .description p {
+        overflow: hidden;
+    }
+    .sweets .sweets_sw .grey {
+        margin-left: 30px;
+    }
+    .sweets .sweets_sw .made_btns {
+        width: 213px;
+    }
+    .sweets .sweets_sw .yellow {
+        margin-right: 30px;
+    }
+    .search .sear h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .search .sear .wraper {
+        display: inline;
+    }
+    .search .sear .wraper input {
+        width: 280px;
+    }
+    .footer .container p  {
+        font-size: 16px;
+    }
+    .footer .logotip {
+        border-left: none;
+        border-right: none;
+    }
+    .footer .logotip .networks {
+        display: inline;
+    }
+    .footer .logotip .networks a {
+        background: none;
+        border-radius: none;
+    } 
+}
